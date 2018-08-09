@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5260B2E8A4A4918905FA6AFD /* Pods_DCFollowupTableVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537B8380676BC081BAF84A16 /* Pods_DCFollowupTableVC.framework */; };
+		B29E88E8211BE8A000D65B42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B29E88E7211BE8A000D65B42 /* AppDelegate.m */; };
+		B29E88EB211BE8A000D65B42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29E88EA211BE8A000D65B42 /* ViewController.m */; };
+		B29E88EE211BE8A000D65B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29E88EC211BE8A000D65B42 /* Main.storyboard */; };
+		B29E88F0211BE8A300D65B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29E88EF211BE8A300D65B42 /* Assets.xcassets */; };
+		B29E88F3211BE8A300D65B42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29E88F1211BE8A300D65B42 /* LaunchScreen.storyboard */; };
+		B29E88F6211BE8A300D65B42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B29E88F5211BE8A300D65B42 /* main.m */; };
+		B29E88FE211BE8B200D65B42 /* DCFollowupTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B29E88FD211BE8B100D65B42 /* DCFollowupTableVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		537B8380676BC081BAF84A16 /* Pods_DCFollowupTableVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCFollowupTableVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF8575E18A45A3746C23DF3 /* Pods-DCFollowupTableVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCFollowupTableVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-DCFollowupTableVC/Pods-DCFollowupTableVC.release.xcconfig"; sourceTree = "<group>"; };
+		B29E88E3211BE8A000D65B42 /* DCFollowupTableVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCFollowupTableVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29E88E6211BE8A000D65B42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B29E88E7211BE8A000D65B42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B29E88E9211BE8A000D65B42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B29E88EA211BE8A000D65B42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B29E88ED211BE8A000D65B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B29E88EF211BE8A300D65B42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B29E88F2211BE8A300D65B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B29E88F4211BE8A300D65B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B29E88F5211BE8A300D65B42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B29E88FC211BE8B100D65B42 /* DCFollowupTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFollowupTableVC.h; sourceTree = "<group>"; };
+		B29E88FD211BE8B100D65B42 /* DCFollowupTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFollowupTableVC.m; sourceTree = "<group>"; };
+		EDE0D66B5615A1BE7687724A /* Pods-DCFollowupTableVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCFollowupTableVC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DCFollowupTableVC/Pods-DCFollowupTableVC.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B29E88E0211BE8A000D65B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5260B2E8A4A4918905FA6AFD /* Pods_DCFollowupTableVC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078F8B96EB498F4F9EE1D05D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDE0D66B5615A1BE7687724A /* Pods-DCFollowupTableVC.debug.xcconfig */,
+				8CF8575E18A45A3746C23DF3 /* Pods-DCFollowupTableVC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1F0B189C2858EA9493C72EAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				537B8380676BC081BAF84A16 /* Pods_DCFollowupTableVC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B29E88DA211BE8A000D65B42 = {
+			isa = PBXGroup;
+			children = (
+				B29E88E5211BE8A000D65B42 /* DCFollowupTableVC */,
+				B29E88E4211BE8A000D65B42 /* Products */,
+				078F8B96EB498F4F9EE1D05D /* Pods */,
+				1F0B189C2858EA9493C72EAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B29E88E4211BE8A000D65B42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B29E88E3211BE8A000D65B42 /* DCFollowupTableVC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B29E88E5211BE8A000D65B42 /* DCFollowupTableVC */ = {
+			isa = PBXGroup;
+			children = (
+				B29E88E6211BE8A000D65B42 /* AppDelegate.h */,
+				B29E88E7211BE8A000D65B42 /* AppDelegate.m */,
+				B29E88E9211BE8A000D65B42 /* ViewController.h */,
+				B29E88EA211BE8A000D65B42 /* ViewController.m */,
+				B29E88FC211BE8B100D65B42 /* DCFollowupTableVC.h */,
+				B29E88FD211BE8B100D65B42 /* DCFollowupTableVC.m */,
+				B29E88EC211BE8A000D65B42 /* Main.storyboard */,
+				B29E88EF211BE8A300D65B42 /* Assets.xcassets */,
+				B29E88F1211BE8A300D65B42 /* LaunchScreen.storyboard */,
+				B29E88F4211BE8A300D65B42 /* Info.plist */,
+				B29E88F5211BE8A300D65B42 /* main.m */,
+			);
+			path = DCFollowupTableVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B29E88E2211BE8A000D65B42 /* DCFollowupTableVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B29E88F9211BE8A300D65B42 /* Build configuration list for PBXNativeTarget "DCFollowupTableVC" */;
+			buildPhases = (
+				7AF559C5DDB49169805DB24F /* [CP] Check Pods Manifest.lock */,
+				B29E88DF211BE8A000D65B42 /* Sources */,
+				B29E88E0211BE8A000D65B42 /* Frameworks */,
+				B29E88E1211BE8A000D65B42 /* Resources */,
+				BC9AB8D8D4502CB5A47D3156 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCFollowupTableVC;
+			productName = DCFollowupTableVC;
+			productReference = B29E88E3211BE8A000D65B42 /* DCFollowupTableVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B29E88DB211BE8A000D65B42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "树妖";
+				TargetAttributes = {
+					B29E88E2211BE8A000D65B42 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B29E88DE211BE8A000D65B42 /* Build configuration list for PBXProject "DCFollowupTableVC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B29E88DA211BE8A000D65B42;
+			productRefGroup = B29E88E4211BE8A000D65B42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B29E88E2211BE8A000D65B42 /* DCFollowupTableVC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B29E88E1211BE8A000D65B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29E88F3211BE8A300D65B42 /* LaunchScreen.storyboard in Resources */,
+				B29E88F0211BE8A300D65B42 /* Assets.xcassets in Resources */,
+				B29E88EE211BE8A000D65B42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7AF559C5DDB49169805DB24F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DCFollowupTableVC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC9AB8D8D4502CB5A47D3156 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DCFollowupTableVC/Pods-DCFollowupTableVC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DCFollowupTableVC/Pods-DCFollowupTableVC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B29E88DF211BE8A000D65B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29E88EB211BE8A000D65B42 /* ViewController.m in Sources */,
+				B29E88F6211BE8A300D65B42 /* main.m in Sources */,
+				B29E88FE211BE8B200D65B42 /* DCFollowupTableVC.m in Sources */,
+				B29E88E8211BE8A000D65B42 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B29E88EC211BE8A000D65B42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B29E88ED211BE8A000D65B42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B29E88F1211BE8A300D65B42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B29E88F2211BE8A300D65B42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B29E88F7211BE8A300D65B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B29E88F8211BE8A300D65B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B29E88FA211BE8A300D65B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDE0D66B5615A1BE7687724A /* Pods-DCFollowupTableVC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DCFollowupTableVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShuYao.DCFollowupTableVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B29E88FB211BE8A300D65B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CF8575E18A45A3746C23DF3 /* Pods-DCFollowupTableVC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DCFollowupTableVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShuYao.DCFollowupTableVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B29E88DE211BE8A000D65B42 /* Build configuration list for PBXProject "DCFollowupTableVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29E88F7211BE8A300D65B42 /* Debug */,
+				B29E88F8211BE8A300D65B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B29E88F9211BE8A300D65B42 /* Build configuration list for PBXNativeTarget "DCFollowupTableVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29E88FA211BE8A300D65B42 /* Debug */,
+				B29E88FB211BE8A300D65B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B29E88DB211BE8A000D65B42 /* Project object */;
+}
